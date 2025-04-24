@@ -1,0 +1,14 @@
+{
+  "html": [
+    { "id": "1", "title": "HTML Kirish", "youtubeId": "dD2EISBDjWM" },
+    { "id": "2", "title": "CSS Asoslari", "youtubeId": "yfoY53QXEnI" }
+  ],
+  "js": [
+    { "id": "1", "title": "O‘zgaruvchilar", "youtubeId": "W6NZfCO5SIk" },
+    { "id": "2", "title": "Funksiyalar", "youtubeId": "PkZNo7MFNFg" }
+  ],
+  "react": [
+    { "id": "1", "title": "JSX va komponentlar", "youtubeId": "bMknfKXIFA8" },
+    { "id": "2", "title": "React Hooks", "youtubeId": "dpw9EHDh2bM" }
+  ]
+}

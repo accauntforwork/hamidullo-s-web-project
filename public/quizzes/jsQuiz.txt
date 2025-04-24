@@ -1,0 +1,109 @@
+++++
+JavaScript nima?
+====
+#Brauzerda ishlaydigan dasturlash tili
+====
+Veb dizayn tili
+====
+Ma’lumotlar bazasi
+====
+Fayl tizimi
+
+++++
+Qanday qilib o‘zgaruvchi yaratiladi?
+====
+let = x 5;
+====
+#let x = 5;
+====
+x := 5;
+====
+var: x = 5;
+
+++++
+JavaScriptda funksiyalar qanday yaratiladi?
+====
+#function myFunc() {}
+====
+fun myFunc() {}
+====
+def myFunc() {}
+====
+func myFunc {}
+
+++++
+console.log() funksiyasi nima qiladi?
+====
+Matn o‘zgartiradi
+====
+#Konsolga natija chiqaradi
+====
+HTML yaratadi
+====
+CSS bog‘laydi
+
+++++
+"===" operatori nimani bildiradi?
+====
+#Qiymat va tur tekshiradi
+====
+Faqat qiymat tekshiradi
+====
+Faqat tur tekshiradi
+====
+Qiymatni o‘zgartiradi
+
+++++
+Array qanday e’lon qilinadi?
+====
+#let arr = [1, 2, 3];
+====
+let arr = (1,2,3);
+====
+let arr = {1,2,3};
+====
+let arr = <1,2,3>;
+
+++++
+JavaScriptda obyekt qanday yaratiladi?
+====
+let obj = (a:1, b:2);
+====
+#let obj = {a: 1, b: 2};
+====
+let obj = [a:1, b:2];
+====
+let obj = <a=1, b=2>;
+
+++++
+JavaScriptda `typeof` operatori nima qiladi?
+====
+#O‘zgaruvchining turini aniqlaydi
+====
+Qiymatni o‘chiradi
+====
+Qiymatni o‘zgartiradi
+====
+Funksiya yaratadi
+
+++++
+for loop qanday yoziladi?
+====
+#for (let i = 0; i < 5; i++) {}
+====
+loop (i from 1 to 5) {}
+====
+repeat 5 times {}
+====
+forEach i in [1,2,3]
+
+++++
+JavaScriptda `if` operatori nima uchun ishlatiladi?
+====
+#Shartni tekshirish
+====
+Raqam qo‘shish
+====
+Matn chiqarish
+====
+Sahifa yaratish

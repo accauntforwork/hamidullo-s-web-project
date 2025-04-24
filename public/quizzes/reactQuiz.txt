@@ -1,0 +1,109 @@
+++++
+React nima?
+====
+#UI (foydalanuvchi interfeysi) kutubxonasi
+====
+Backend framework
+====
+Ma’lumotlar bazasi
+====
+Dizayn vositasi
+
+++++
+React komponenti qanday e’lon qilinadi?
+====
+#function MyComponent() {}
+====
+component MyComponent() {}
+====
+fun MyComponent {}
+====
+def MyComponent {}
+
+++++
+Reactda `useState` nima qiladi?
+====
+#Holatni saqlaydi
+====
+Marshrutlash qiladi
+====
+CSS ulaydi
+====
+Fayl yuklaydi
+
+++++
+JSX nima?
+====
+#HTML va JS aralash sintaksisi
+====
+Yangi CSS
+====
+Server kodi
+====
+Ma’lumotlar bazasi
+
+++++
+Reactda `props` nima?
+====
+#Komponentga uzatiladigan ma’lumot
+====
+Ichki holat
+====
+Xatolik
+====
+Fayl turi
+
+++++
+Reactda `useEffect` qachon ishlaydi?
+====
+Har bir bosishda
+====
+#Komponent yuklanganda yoki prop/hook o‘zgarganda
+====
+CSS o‘zgarganda
+====
+Router ishga tushganda
+
+++++
+Reactda `key` atributi nima uchun kerak?
+====
+#Elementlarni aniqlash uchun
+====
+Rang berish uchun
+====
+To‘xtatish uchun
+====
+Xatolik berish uchun
+
+++++
+React komponentlari qanday bo‘ladi?
+====
+#Funksional va class komponentlar
+====
+Faqat funksional
+====
+Faqat sinfli
+====
+Faqat JSX
+
+++++
+Router nima uchun kerak?
+====
+#Sahifalar o‘rtasida yurish uchun
+====
+Rasm qo‘shish
+====
+State o‘zgartirish
+====
+Malumot saqlash
+
+++++
+React loyihasi qanday yaratiladi?
+====
+npm install react
+====
+#npx create-react-app my-app
+====
+node start
+====
+git init react

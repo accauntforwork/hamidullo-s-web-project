@@ -1,0 +1,109 @@
+++++
+HTML nima uchun ishlatiladi?
+====
+Veb-sahifalarni formatlash uchun
+====
+Dasturlar yaratish uchun
+====
+Mobil ilovalar yaratish uchun
+====
+#Veb-sahifalarni tuzish uchun
+
+++++
+<!DOCTYPE html> tegi nimani bildiradi?
+====
+Sahifa sarlavhasini bildiradi
+====
+Jadval boshlanishini bildiradi
+====
+#HTML5 hujjatini bildiradi
+====
+Veb brauzerga yo'nalish beradi
+
+++++
+HTML faylning kengaytmasi qanday?
+====
+#.html
+====
+.txt
+====
+.doc
+====
+.xml
+
+++++
+<img> tegi nimaga xizmat qiladi?
+====
+#Rasm qo'shish uchun
+====
+Matn yozish uchun
+====
+Sahifa fonini o‘zgartirish uchun
+====
+Jadval chizish uchun
+
+++++
+<form> tegi nimani bildiradi?
+====
+#Ma’lumot kiritish formasi
+====
+Rasm yuklash
+====
+Sarlavha
+====
+Skriptlar
+
+++++
+HTMLda qaysi teg sarlavha uchun ishlatiladi?
+====
+#<h1> dan <h6> gacha
+====
+<p>
+====
+<form>
+====
+<table>
+
+++++
+<a> tegi nimani bildiradi?
+====
+#Havola (link) yaratish
+====
+Rasm qo‘shish
+====
+Fayl yuklash
+====
+Sarlavha qo‘shish
+
+++++
+CSSni HTMLga qanday ulaymiz?
+====
+<script> orqali
+====
+#<link> orqali
+====
+<img> orqali
+====
+<form> orqali
+
+++++
+HTMLda comment qanday yoziladi?
+====
+#<!-- Bu comment -->
+====
+## Bu comment
+====
+// Bu comment
+====
+/* Bu comment */
+
+++++
+HTMLda <br> tegi nima qiladi?
+====
+#Yangi qatorga o‘tadi
+====
+Matnni qalin qiladi
+====
+Rasmni joylashtiradi
+====
+Formani yuboradi
