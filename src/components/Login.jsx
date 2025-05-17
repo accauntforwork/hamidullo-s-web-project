@@ -22,7 +22,7 @@ function Login({ setIsLoggedIn }) {
       setIsLoggedIn(true);
       navigate("/");
     } else {
-      setError("Login yoki parol noto‘g‘ri.");
+      setError("Login yoki parol noto'g'ri.");
     }
   };
 

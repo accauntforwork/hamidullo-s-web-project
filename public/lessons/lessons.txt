@@ -1,0 +1,162 @@
+1-DARS. GRAFIK OBYEKTLAR VA ULARNI KOMPYUTERDA TASVIRLASH USULLARI
+Inson tashqi dunyo haqidagi axborotning asosiy qismini ko‘zlari yordamida qabul qiladi. Ko‘rish tizimi turli obyektlaming tasvirini qabul qilib oladi. Ular yordamida insonda tashqi muhit va undagi obyektlar haqida tasawur
+paydo bo‘ladi. Obyektlaming tasvirini yaratish, ulami saqlash, qayta ishlash va tasvirlash qurilmalarida tasvirlab berish kompyuteming eng qiyin va asosiy masalalaridan biridir. Kompyuterga hech qanday topshiriq berilmaganda, ya’ni
+bekor turganida ham ekranida ko‘rinishi kerak bo‘lgan tasvimi sekundiga o‘nlab marta qayta ishlab ko‘rsatadi. Kompyuteming ekranida paydo bo‘ladigan tasvirlar uning videokarta
+deb ataluvchi qurilmasi yordamida yaratiladi va ekranga chiqariladi. Videokartalar uchun maxsus videoprotsessorlar ishlab chiqariladi. Videoprotsessorlar kompyuteming asosiy protsessorini murakkabligi va hisoblash ishlarini bajarish tezligi bo‘yicha ortda qoldirib ketgan.
+Kompyuter ekranida tasvir qanday yaratilishi bilan tanishib chiqamiz. Kompyuteming ma’lumotlami elektron ko'rinishda tasvirlash qurilmasi
+monitor (monitor - kuzatish, nazorat) deb ataladi. Kompyuterda bo‘layotgan jarayonlami monitor orqali kuzatish mumkin.
+Monitoming tasvirlar ko‘rsatiladigan qismi, ya’ni ekrani displey (display - tasvirlamoq) deb ataladi. Hozirgi paytda alohida korpusda yig‘ilgan tasvirlash qurilmalari kompyuter monitori, kompyuter bilan birga joylangan tasvirlash qurilmalari (masalan, noutbuk, planshet hamda telefonlarda) displey
+deb atalmoqda. Displey to‘g‘ri to‘rtburchak ko‘rinishida bo‘lib, uning tomonlari nisbati odatda 16 ga 9 kabi bo‘ladi. Bundan tashqari, displey tomonlari nisbati 16 ga
+10, 4 ga 3, 5 ga 4 kabi bo‘lishi ham mumkin. So‘nggi paytda 21 ga 9 nisbatdagi displeylar ishlab chiqarila boshlandi. 16x9 va 16x10 nisbatli displeylar
+keng, 21x9 nisbatlilari o‘ta keng, 5x4 nisbatlilari kvadrat displeylar deb ataladi. Piksellar soni bo‘yicha displeylardan keng tarqalganlari va ulaming nomlari quyida keltirilgan:
+320x240 CGA (Color Graphic Adapter - rangli grafik qurilma);
+640x480 VGA (Video Graphic Adapter - video grafik qurilma);
+800x600 SVGA (Super VGA);
+1024x768 XVGA (eXtended VGA - kengaytirilgan VGA);
+1280x720 HD (High Definition - yuqori aniqlik);
+1280x800 HD+ (HD dan ko‘proq);
+1366x768 WXVGA (Wide XVGA - keng XVGA);
+1440x900 IID++ (HD dan yanada ko‘proq);
+1600x900 HD+++ (HD dan yanada ko‘proq);
+1920x1080 FHD (Full HD - to‘liq HD);
+2560x1440 QHD (Quadra HD - to‘rtlangan HD);
+3840x2160 4K (4 kilo - to‘rt ming ustun) yoki UHD (Ultra HD - o‘ta HD).
+Displey ekrani satrlarga va ustunlarga ajratib
+~ flfe' 4 chiqilgan bo‘lib, har bir qator va ustun kesishgan joym Z G da piksel deb ataluvchi juda kichik tasvir bo‘laklari
+joylashgan. Piksellaming har biri alohida manzilga
+1 - ega va mustaqil boshqarilishi mumkin. Har bir piksel
+uchun xotirada bir baytdan to‘rt baytgacha joy ajratilishi mumkin. Demak,
+har bir piksEkrandagi har bir pikselning o‘zi uchga bo‘linadi. Ulardan biri qizil, ikkinchisi yashil, uchinchisi ko‘k rangda porlaydi. Bu ranglar asosiy ranglar
+deb ataladi va turli nisbatda qo‘shilib, tabiatda uchraydigan ranglaming deyarli barchasini yarata oladi.
+Kompyuter grafikasi faoliyatning shunday turi-ki, unda kompyuter va
+maxsus yaratilgan dasturlardan foydalanib, tasvirlar yaratiladi, mavjudlari
+raqamli ko‘rinishga o‘tkaziladi, qayta ishlanadi, saqlanadi va qulay ko‘rinishda tasvirlanadi.
+Kompyuter grafikasi o‘tgan asming 70 - 80-yillaridan boshlab ommaviylasha boshladi. Hozirgi kunda kompyuter grafikasi shu qadar rivojlanganki,
+uning ehtiyojlarini qondirish kompyuter texnikasining jadal rivojlanishining
+asosiy sabablaridan biri bo‘lib qolmoqda.
+Kompyuter grafikasi ilm-fanga, tijoratga, san’at va sportga ham tegishli
+bo‘lib, barcha sohalarda keng qo‘llaniladi. Kompyuter grafikasi bo‘yicha har
+yili ko‘plab konferensiyalar o‘tkaziladi, ilmiy jumallar va o‘quv qo‘llanmalar chop etiladi, dissertatsiyalar himoya qilinadi.
+Har yili bir necha yuz milliard dollarlik kompyuter grafikasi mahsulotlari ishlab chiqariladi va sotiladi. San’at durdonalari yaratiladi. Kompyuter
+grafikasi asosida yaratilgan elektron o‘yinlar bo'yicha jahon birinchiliklari
+o'tkaziladi va ularda millionlab qatnashchilar ishtirok etadilar.
+Kompyuter grafikasi nimaning tasviri yaratilishiga qarab quyidagi sinflarga ajratiladi: 1) statsionar (o‘zgarmas) yoki oddiy grafika; 2) kompyuter
+animatsiyasi; 3) multimedia.
+Oddiy grafika vaqt o'tishi bilan o‘zgarmaydigan tasvirlami yaratish bilan
+shug‘ullanadi. Ularga misol sifatida rasmlar, fotosuratlar, chizmalami keltirish mumkin. Kompyuter animatsiyasi vaqt o‘tishi bilan o'zgaradigan tasvirlar yaratadi. Masalan, multfilmlar, videoklip va videoroliklar.
+Multimedia mahsulotlari rasmlar va animatsiya bilan birga boshqa turdagi axborotlami, masalan, ovoz va matnni ham o‘z ichiga oladi. Multimedianing o‘ziga xos jihati uning interfaolligi bo'lib, unda bir joydan ikkinchi
+joyga o'tish imkoniyati ko‘zda tutilgan bo‘ladi. Multimediaga yorqin misol
+sifatida butun olam to‘ri - wwwni, undagi www-saytlar va www-sahifalami
+keltirish mumkin. Qaysi sohada ishlatilishiga qarab, grafika quyidagi turlarga ajratiladi:
+1. Ilmiy grafika. Ilmiy izlanishlar va ulaming natijalarini tasvirlash uchun.
+2. Tijorat grafikasi. Iqtisodiy ko‘rsatkichlar va jarayonlami yaqqol ko‘rsata bilish uchun xizmat qiladi.
+3. Konstruktorlik grafikasi. Iqtisodiyot, texnika, qurilish va boshqa sohalarda loyihalash ishlarini osonlashtirish, yaxshilash, jadallashtirish va avtomatlashtirishni ta’minlaydi.
+4. Illyustrativ grafika. Xizmat ko‘rsatishning turli sohalarida bezatish
+ishlarida foydalaniladi.
+5. Badiiy grafika. San’at asarlarini yaratishda keng qoTlaniladi
+
+
+SAVOL VA TOPSHIRIQLAR
+1. Videokarta qanday vazifa bajarishini tushuntirib bering.
+2. Kompyuter ekranida tasvirlar qanday yaratiladi?
+3. Monitor, displey deb nimaga aytiladi? Ulaming qanday farqi bor?
+4. Piksel deganda nimani tushunasiz?
+5. Kompyuter grafikasining turlari va sinflarini aytib bering.
+6. Diagonali 20 dyuym va oTchamlari 4x3, 5x4, 16x9,16x10 nisbatda
+boTgan monitorlami bitta chizmada tasvirlang va ulami solishtiring.
+
+UYGA VAZIFA
+UHD turidagi ekranni chizing. Uning o‘ng yuqori burchagiga boshqa
+turdagi ekranlami piksellari soniga qarab joylang. Ulaming yuzalari nisbatini
+toping
+
+2-DARS. IKKIVA UCH 0 ‘LCHAMLI KOMPYUTER GRAFIKASITURLARI
+Yaratish usuliga ko'ra kompyuter grafikasi ikki guruhga ajratiladi:
+1) 2D (inglizeha two dimension - ikki oTchamli jumlasidan olingan).
+2) 3D (inglizcha three dimension - uch oTchamli jumlasidan olingan).
+Ikki oTchamli grafika yassi va tekis sirtlarda yaratilgan tasvirlar boTib,
+ularga misol sifatida printerda qog‘ozga chop etilgan fotosurat, rassom to-monidan xolst (maxsus mato)da chizilgan rasmlami keltirish mumkin. Ikki
+o‘lchamli grafikaning turlari bilan keyingi sahifada batafsil tanishamiz.
+Uch o‘lchamli grafika yordamida hajmga ega jismlar tasvirlanadi. Bunda
+jismning fazoda egallagan o‘mi mayda kublar bilan to‘ldiriladi. Agar bu kublar yetarlicha kichik bo‘lsa, inson ko‘zi ulami ilg‘amaydi va kublar yaxlit bir
+jism sifatida ko‘z o‘ngimizda gavdalanadi.
+Lekin hozirgi paytda boshqacha yo‘l tutiladi. Jismning o‘zi emas, balki
+uning chegarasini tashkil etuvchi sirt shakllantiriladi. Natijada ko‘zlarimiz
+oldida jismning o‘zi namoyon bo‘ladi. lan qoplab chiqiladi. Agar bu uchburchaklar yetarlicha kichik bo‘lsa, ko‘z bu
+uchburchaklardan iborat to‘mi ilg‘amaydi
+va jism bir butun holda shakllanadi.
+To‘r ko‘zga tashlanmasligi uchun jism
+sirti bo‘yab chiqiladi. YomgTik manbalari
+jism sirtini yoritishini va jismning soyasini inobatga olsak, uch oTchamli jismning
+sirtini bo‘yash katta hajmdagi hisob-kitoblami bajarishga olib kelishi maTum boTadi.
+Uch oTchamli grafikadan animatsiya, kompyuter o‘yinlari va virtual
+(xayoliy) borliq yaratishda keng foydalaniladi. Virtual borliq, asosan, maxsus
+bosh kiyim - shlemlarda tasvirlanadi. Bunda har bir ko‘z uchun alohida tasvir
+yaratiladi. Ular birgalikda tasvimi uch oTchamda ko‘rish imkonini yaratadi.
+Uch oTchamli grafikadan ikki oTchamli grafikada ham, ayniqsa, animatsiyada keng foydalaniladi.
+Ikki o ‘lchamli kompyuter grafikasi quyidagi turlarga ajratiladi:
+1) rastrli grafika; 2) vektorli grafika; 3) fraktal grafika.
+Rastr so‘zi informatikaga televideniyedan kirib kelgan bo‘lib, lotin
+tilidagi rastrum - xaskash, omoch so‘zidan olingan. Monitor ekranida
+tasvir televizor ekranidagi kabi yaratiladi. Hozirgi paytda ekrandagi
+tasvir ham raqamli ko‘rinishda yaratiladi: tasvir qatorlar va ustunlarga
+bo‘linadi, tasviming mayda bo‘laklari - piksellardan iborat bo‘ladi.
+Rastrli tasvirlar skanerlar, raqamli
+fotoapparatlar, shu jumladan, telefonning fotokameralarida yaratiladi. Kompyuter ekranidagi tasvirdan nusxa olinganda ham rastrli tasvir paydo bo‘ladi.
+Printerlarda chop etilgan tasvirlar ham
+rastrlar orqali yaratiladi.
+Rastrli tasviming o ‘lchami deganda undagi ustunlar va satrlar soni
+tushuniladi. Masalan, 3200x2400 o ‘lchamli tasvirda 7 million 680 mingta, 1920x1080 o ‘lchamlisida 2 million 73 ming 600 ta piksel bor.
+Rastrlar zichligi deganda uzunlik birligiga mos keladigan piksellar soni tushuniladi va dpi (dots per inch - bir dyuymdagi nuqtalar) da
+o‘lchanadi. Masalan, 3200x2400 o ‘lchamli tasvimi 300 dpi zichlikda
+chop etish uchun 11x8 dyuym2 yoki 27x20 sm2 o ‘lchamli qog‘oz kerak
+bo‘ladi.
+Rastrli grafikaning afzalliklari: har qanday tasvimi saqlay olishi, tasviming sifatli bo‘lishi, deyarli barcha qurilmalar u bilan ishlay olishidir. Kamchiliklari: uni saqlash uchun katta hajmdagi xotira kerakligi,
+masshtab kattalashtirilganda tasvir sifati pasayishi, ba’zi amallami bajarish ko‘p hisob-kitoblar talab qilishidir. Shunga qaramay, rastrli grafika
+kompyuter grafikasining barcha sohalarida keng qo‘llaniladi.
+
+SAVOL VA TOPSHIRIQLAR
+1. Ikki oTchamli kompyuter grafikasi turlarini, ulaming afzalliklarini
+aytib bering.
+2. Rastrli grafika o‘lchami nima va uni saqlash uchun qancha xotira
+kerak bo‘ladi?
+3. Fraktallar haqida nimalami bilasiz?
+4. Uch o‘lchamli grafika haqida nimalami bilasiz?
+5. Kvadrat chizing. Uni to‘qqizta kvadratga ajrating. Burchaklardagi to‘rtta kvadratni olib qolib, qolganlarini o‘chirib tashlang. Qolgan
+kvadratlami ham shu usulda qayta ishlang.
+
+
+UYGA VAZIFA
+Dars mavzusi bo'yicha 6 ta test tuzing.
+
+3-DARS. PHOTOSHOP - RASTRLI GRAFIK MUHARRIRIDAISHLASH ASOSLARI. PHOTOSHOP INTERFEYSI
+Rastrli grafikani, masalan, fotosuratlami, tahrirlash ko‘p uchraydigan
+amal. Fotosuratlami olish paytida yo‘l qo‘yilgan xatoliklami tuzatish, mavjud fotosuratlardan yangisini montaj qilish, fotosuratlardagi ortiqcha narsalami olib tashlash, fotosuratlaming muammoli joylarini boshqa qismi bilan
+almashtirish mumkin. Fotosuratga jilo berish, fotosuratga turli filtrlami qo‘llab ulami yangi ko‘rinishga o‘tkazish, fotosuratlarga matn qo‘shish, fotosuratlami boshqa sirtlarga, masalan, ko'za sirtiga o'tkazish uchun shaklini o‘zgartirish bu amallardan ba’zilari xolos.
+Fotograflaming ishini osonlashtirish uchun qator dasturlar ishlab chiqilgan. Ular orasida eng mashhuri Adobe kompaniyasi tomonidan ishlab chiqilgan va qo‘llab-quwatlanadigan PhotoShop dasturidir. Uning dastlabki
+versiyasi 1990-yilda yaratilgan bo‘lib, hozirgi paytgacha yiginnaga yaqin
+versiyalari sotuvga chiqarilgan.
+Ulardan dastlabki yettitasi Adobe PhotoShop 1, 2, ..., 7 nomlari bilan
+sotuvga chiqarilgan. 2007-yildan boshlab Adobe PhotoShop CS 1, 2, ..., 7
+versiyalari ishlab chiqilgan. 2013-yildan boshlab yangi versiyalar Adobe
+PhotoShop CC deb atala boshladi. Ulaming versiya nomerlari sifatida ishlab
+chiqilgan yillari qo‘yila boshladi. Hozirgi paytda bu dastuming eng yangi
+versiyasi Adope PhotoShop CC 2018 hisoblanadi.
+Bu dasturlardan dastlabkilari asosan yakka holda ishlagan bo‘lsa, ikkinchi guruhida Adobe kompaniyasining boshqa mahsulotlari bilan birga ishlash,
+ular bilan ma'lumot almashish imkoniyatlari paydo bo‘ldi. Oxirgi guruhga
+tegishlilarida esa intemetda saqlangan tasvirlami bir paytda turli operatsion
+tizimlarda ishlaydigan turli kompyuterlar, planshetlar va telefonlardan bir
+paytda foydalangan holda qayta ishlash imkoniyatlari yaratildi.
+
+
+SAVOL VA TOPSHIRIQLAR
+1. PhotoShopning tarixi haqida gapirib bering.
+2. PhotoShopning imkoniyatlarini aytib bering.
+3. PhotoShop interfeysi nimalardan iborat?
+4. PhotoShop asosiy menyusining qanday bo‘limlari mavjud?
+5. Asosiy menyuning PeaaKmpoBaHHe (Tahrirlash) va Okho (Oyna)
+boTimlaridagi bandlar bilan tanishib chiqing.
+
+
+UYGA VAZIFA
+PhotoShop palitralar sohasiga turli palitralar chiqarishni mashq qiling
