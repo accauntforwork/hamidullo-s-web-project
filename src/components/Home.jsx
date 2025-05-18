@@ -6,7 +6,7 @@ export default function Home() {
       id: "html",
       title: "HTML & CSS",
       description: "Boshlang‘ich darajadagi veb-sahifa tuzishni o‘rganing.",
-      image: "/images/htmlcss.png",
+      image: "/images/htmlcss.jpg",
     },
     {
       id: "js",

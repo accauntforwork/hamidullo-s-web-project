@@ -27,7 +27,12 @@ function App() {
 
   return (
     <Router>
-      <div className="min-h-screen bg-gray-100 font-sans px-4 sm:px-6 md:px-8">
+      <div
+        className="min-h-screen bg-gray-100 font-sans px-4 sm:px-6 md:px-8 bg-cover bg-center"
+        style={{
+          backgroundImage: `url('/images/bg.jpg')`,
+        }}
+      >
         <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
         <Routes>
           <Route
