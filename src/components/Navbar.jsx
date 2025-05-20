@@ -63,6 +63,13 @@ function Navbar({ isLoggedIn, setIsLoggedIn }) {
               <Link to="/lessons" className="text-gray-700 hover:text-blue-500">
                 Elektron darslik
               </Link>
+              <Link
+                to="/playground"
+                className="text-gray-700 hover:text-blue-500"
+              >
+                Kod mashq sahifasi
+              </Link>
+
               <button onClick={handleLogout} className="text-red-500 ml-2">
                 Chiqish
               </button>

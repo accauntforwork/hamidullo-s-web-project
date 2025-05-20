@@ -16,6 +16,7 @@ import QuizPage from "./components/QuizPage";
 // import ChatPage from "./components/Chatbot";
 import Lessons from "./components/Lessons";
 import LessonDetail from "./components/LessonDetail";
+import CodePlayground from "./components/CodePlayground";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -66,6 +67,7 @@ function App() {
             path="/lessons/:id"
             element={isLoggedIn ? <LessonDetail /> : <Navigate to="/login" />}
           />
+          <Route path="/playground" element={<CodePlayground />} />;
         </Routes>
       </div>
     </Router>
